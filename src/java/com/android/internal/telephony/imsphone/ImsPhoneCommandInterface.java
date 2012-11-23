@@ -608,4 +608,5 @@ class ImsPhoneCommandInterface extends BaseCommands implements CommandsInterface
     @Override
     public void getRadioCapability(Message response) {
     }
+    public boolean needsOldRilFeature(String feature) { return false; }
 }
